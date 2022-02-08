@@ -36,7 +36,7 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        DEVICE: [rpi4,vim3,rockpro64,on2,on2-plus]
+        DEVICE: [rpi4,vim3,rockpro64,on2,on2-plus,radxa-zero2]
         EDITION: [kde-bigscreen]
         BRANCH: [unstable]
     steps:
