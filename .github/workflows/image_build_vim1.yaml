@@ -1,4 +1,4 @@
-name: image_build_all_dev
+name: image_build_vim1
 on:
   workflow_dispatch:
 
