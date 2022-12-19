@@ -26,6 +26,7 @@ jobs:
         id: image-build
         uses: manjaro-arm/rootfs@master
         with:
+          overlay-repo: kde-unstable
           device: ${{ matrix.device }}
           edition: ${{ matrix.edition }}
           branch: ${{ matrix.branch }}
